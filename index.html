@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Frontend Mentor | Product list with cart</title>
+</head>
+
+<body>
+  <div id="root">
+    <div class="products_wrap">
+      <h1>Desserts</h1>
+      <div id="products"></div>
+    </div>
+    <div id="total">
+      <div id="itemslist" data-total="0">
+        <div class="content"></div>
+        <div class="orderTotal">
+          <div class="info">
+            <span>Order total</span>
+            <span class="total">$0.00</span>
+          </div>
+          <div class="message">
+            <img src="./assets/images/icon-carbon-neutral.svg" alt="">
+            <span>This is a <b>carbon-neutral</b> delivery</span>
+          </div>
+          <div class="ordersubmit btn">Confirm Order</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="modal">
+    <div class="bkg"></div>
+    <form id="finalproducts">
+      <img src="./assets//images/icon-order-confirmed.svg" class="icon-order">
+      <header>
+        <h2>Order Confirmed</h2>
+        <p>We hope you enjoy your food</p>
+      </header>
+      <main class="content" data-total="$0.00" data-text="Order Total"></main>
+      <footer>
+        <button class="btn"> Start new Order</button>
+      </footer>
+    </form>
+  </div>
+  <script src="./assets//scripts/general.js" id="generate"></script>
+  <div class="attribution" style="display: none;">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+
+</html>
