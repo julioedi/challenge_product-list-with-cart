@@ -258,19 +258,23 @@
             item.total = 0;
             item.remove(true);
         })
-        modal.classList.remove("active");
+        modal.className = "";
     }
     const openModal = () => {
         const total = getTotal();
         if (total < 1) {
             return;
         }
-        modal.classList.add("active");
+        
+        modal.className = "active";
     }
     firstSubmit.addEventListener("click", openModal);
     // modalbkg.addEventListener("click", closeModal);
     form.addEventListener("submit", (e) => {
         e.preventDefault();
         closeModal();
-    })
+    });
 })()
+    window.addEventListener("load",function(){
+        document.getElementById("root").classList.add("loaded");
+    })

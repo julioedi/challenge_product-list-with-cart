@@ -45,8 +45,16 @@ p {
     flex-wrap: wrap;
     overflow: auto;
     padding-right: var(--aside);
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s ease-in-out all;
+    transform: translateY(36px);
 }
-
+#root.loaded{
+    opacity: 1;
+    transform: none;
+    pointer-events: all;
+}
 #total {
     position: fixed;
     top: var(--gap);
@@ -430,12 +438,15 @@ p {
     padding: 24px;
     animation: popoff 0.3s ease forwards;
 }
-
 #finalproducts .icon-order {
     width: 44px;
     height: 44px;
 }
 
+#modal.none #finalproducts{
+    animation: unset;
+    transform: scale(0);
+}
 #modal.active #finalproducts {
     animation: popup 0.3s ease forwards;
 }

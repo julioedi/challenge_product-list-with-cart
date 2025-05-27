@@ -6,7 +6,15 @@
 
 Thanks for checking out this front-end coding challenge.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+[Frontend Mentor](https://www.frontendmentor.io/challenges/product-list-with-cart-5MmqLVAp_d) challenges help you improve your coding skills by building realistic projects.
+
+
+## Deploying your project
+
+As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+
+- [Public site](https://julioedi.github.io/challenge_product-list-with-cart/)
+
 
 **To do this challenge, you need a good understanding of HTML, CSS and JavaScript.**
 
@@ -54,13 +62,6 @@ Feel free to use any workflow that you feel comfortable with. Below is a suggest
 5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
 6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
 
-## Deploying your project
-
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
-
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
 
 You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
 
